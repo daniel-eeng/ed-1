@@ -65,7 +65,7 @@ struct Biblioteca {
 
         for (int i = 0; i < ultimo; i++) {
             if (l[i].num_paginas >= l[n].num_paginas) {
-                n = 1;
+                n = i;
             }
         }
 
